@@ -14,7 +14,6 @@ library(rgdal)
 gpclibPermit()
 ```
 
-
 ```{r, echo = FALSE}
  my_vars <- data.frame(
    variable = c("market_open", "price_rice", "aware", "water"),
@@ -24,7 +23,12 @@ gpclibPermit()
    stringsAsFactors = FALSE
  )
 
+kable(my_vars, caption = "sample `my_vars` dataframe")
 
+```
+
+
+```{r, echo = FALSE}
 my_data <-
    expand_grid(id = c("Bo", "Bombali", "Bonthe"), date = as.Date(c("2020-04-18", "2020-04-19", "2020-04-20"))) %>%
    data.frame(stringsAsFactors = FALSE) %>%
@@ -35,6 +39,8 @@ my_data <-
      price_rice	 = rbinom(n(), 1, .5),
      aware	 = rbinom(n(), 1, .5),
      water	 = rbinom(n(), 1, .5))
+
+datatable(my_data, caption = "sample `my_data` dataframe")
 
 
  my_args <- data.frame(
@@ -49,6 +55,9 @@ my_data <-
    stringsAsFactors = FALSE
    )
 
+my_args %>% kable(caption = "sample `my_args` dataframe")
+
+
 
 
 
@@ -56,9 +65,9 @@ my_data <-
 
 ```{r}
 dashdash::dashdash(
-  output_file = "/Users/lilymedina/Documents/GitHub/metadash/studies/sl1.html",
-  title = "",
-  subtitle = "",
+  output_file = "/Users/lilymedina/Documents/GitHub/metadash/studies/sl2.html",
+  title = "- ",
+  subtitle = "-",
   my_data = my_data,
   my_vars = my_vars,
   my_args = my_args)
