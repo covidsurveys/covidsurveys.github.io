@@ -16,4 +16,6 @@ title: Studies
 <div id="sl1-include"></div> 
 
 # Sierra Leone2 
-<div id="sl2-include"></div> 
+<p>id="sl1-include"</p> 
+
+
