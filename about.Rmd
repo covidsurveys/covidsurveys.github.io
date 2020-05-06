@@ -1,0 +1,24 @@
+---
+title: "About This Website"
+---
+# Studies
+## Sierra Leone 1
+
+```{r, child="_sessioninfo.Rmd"}
+```
+
+## Sierra Leone 2
+
+
+```{r, child="_sessioninfo.Rmd"}
+```
+
+## Combined
+```{r, child="_sessioninfo.Rmd"}
+```
+
+
+## Metas
+
+```{r, child="_sessioninfo.Rmd"}
+```
