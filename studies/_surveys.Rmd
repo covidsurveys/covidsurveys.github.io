@@ -45,7 +45,6 @@ datatable(my_data, caption = "sample `my_data` dataframe")
 
  my_args <- data.frame(
    intro_text = "Intro text",
-   intro_note = "Lots of great people worked on this. More information here: ... \n [Click here to go back](index.html)",
    data_note = "Study specific note about data source",
    map_path = "/Users/lilymedina/Documents/GitHub/dashdash/docs/shapefiles",
    map_layer = "SLE_adm3",
@@ -66,8 +65,7 @@ my_args %>% kable(caption = "sample `my_args` dataframe")
 ```{r}
 dashdash::dashdash(
   output_file = "/Users/lilymedina/Documents/GitHub/metadash/studies/sl2.html",
-  title = "- ",
-  subtitle = "-",
+  title = "",
   my_data = my_data,
   my_vars = my_vars,
   my_args = my_args)
