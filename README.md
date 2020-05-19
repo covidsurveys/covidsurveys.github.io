@@ -1,1 +1,1 @@
-covidsurveys.github.io
+https://covidsurveys.github.io/
