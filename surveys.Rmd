@@ -4,10 +4,10 @@ title: "Surveys"
 
 # SL1
 
-<embed type="text/html" src="sl1.html" width="800" height="800">
+<embed type="text/html" src="studies/sl1.html" width="800" height="800">
 
 
 # SL2
 
-<embed type="text/html" src="sl2.html" width="1000" height="1000">
+<embed type="text/html" src="studies/sl2.html" width="1000" height="1000">
 
