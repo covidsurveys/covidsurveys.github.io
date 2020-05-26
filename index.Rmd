@@ -111,7 +111,7 @@ The dashboard is then produced by `dashdash::dashdash` like this:
 ```{r, message = FALSE, warning = FALSE, include = FALSE}
 repo <- getwd()
 dashdash::dashdash(
-  output_file = paste(repo , "example.html"),
+  output_file = paste(repo, "example.html"),
   title = "A sample dashboard for my study",
   subtitle = "What's special about this study",
   my_data = my_data,
