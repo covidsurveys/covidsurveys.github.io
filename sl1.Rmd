@@ -50,9 +50,9 @@ my_args <- data.frame(
   stringsAsFactors = FALSE
 )
 
-
+repo <- getwd()
 dashdash::dashdash(
-  output_file ="/Users/lilymedina/Documents/GitHub/metadash/surveys/sl1.html",
+  output_file =paste0(repo, "/surveys/sl1.html"),
   title = "A sample dashboard for my study",
   subtitle = "What's special about this study",
   map_path = "shapefiles",
