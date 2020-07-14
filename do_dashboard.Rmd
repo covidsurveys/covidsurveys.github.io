@@ -70,14 +70,14 @@ my_args <- read_excel("my_args.xlsx")
 ```{r, message = FALSE, warning = FALSE, include = FALSE}
 wd <- getwd()
 dashdash::dashdash(
-  output_file = paste0(wd, "/index.html"),
+  output_file = paste0(wd, "/surveys/do_dashboard.html"),
   my_data = my_data,
   my_vars = my_vars,
   my_args = my_args, 
   trend = list("moving_average")
 )
 
-file.copy("index.html", paste0("1_dashboards/", max_date, "_dashboard.html"))
+# file.copy("index.html", paste0("1_dashboards/", max_date, "_dashboard.html"))
 
 # file.copy("index.html", "C:/Users/solis/Documents/GitHub/corona/docs/index.html", overwrite = TRUE)
 ```
