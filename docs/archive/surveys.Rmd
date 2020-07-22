@@ -1,0 +1,23 @@
+---
+title: "Surveys"
+---
+
+# KCCA Charter
+
+<embed type="text/html" src="studies/do_dashboard.html" width="800" height="800">
+
+# IDInsight
+
+<embed type="text/html" src="studies/sl2.html" width="1000" height="1000">
+
+# Community Policing (CP)
+
+<embed type="text/html" src="studies/sl2.html" width="1000" height="1000">
+
+# Kamwenge Graduation Study 
+
+<embed type="text/html" src="studies/sl2.html" width="1000" height="1000">
+
+# Living goods 
+
+<embed type="text/html" src="studies/sl2.html" width="1000" height="1000">
