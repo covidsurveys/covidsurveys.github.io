@@ -1,17 +1,14 @@
 name: "my-website"
 navbar:
-  title: "Aggregate Dashboard" 
+  title: "Covid Surveys" 
   left:
-    - text: "Uganda KKCA Charter dashboard"
+    - text: "Home"
       href: index.html
-    - text: "IDInsight"
-      href: data_pending.html
-    - text: "Community Policing"
-      href: data_pending.html
-    - text: "Kamwenge Graduation Study"
-      href: data_pending.html
-    - text: "Living Goods"
-      href: data_pending.html
+    - text: "Surveys"
+      href: surveys.html
+    - text: "About"
+      href: about.html
+ 
 
 output:
   html_document:
@@ -19,3 +16,5 @@ output:
     toc_float:
       collapsed: false
       smooth_scroll: false
+      
+    
